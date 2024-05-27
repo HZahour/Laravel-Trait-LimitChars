@@ -6,11 +6,12 @@ trait LimitChars
 {
     /* 
         Review:
-        2024-03-22
+        2024-05-27
 
         Description:
         It is a scope function that will limit the characters of the columns.
         It is basically used for indexing and listing purpose in Laravel.
+        Note: It works only on MySQL database.
 
         @param $columns: array|string
         @param $limit: integer = 200
